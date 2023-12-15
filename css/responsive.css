@@ -1,0 +1,99 @@
+
+@media screen and (max-width: 1040px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav {
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease-out;
+        height: 80px;
+    }
+
+    #nav .logo {
+        width: 200px;
+        height: 180px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+
+    .box {
+        height: auto;
+        width: 100%;
+    }
+
+    .sidebar {
+        visibility: visible;
+        height: 50%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        line-height: 3.5;
+        border-radius: 0 0 0 20%;
+
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+
+    #nav .sidebar .closebtn {
+        position: absolute;
+        top: -20px;
+        right: 0px;
+        font-size: 36px;
+        margin-right: 50px;
+    }
+
+    .openbtn {
+        position: absolute;
+        visibility: visible;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: darkgray;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        float: right;
+        right: 7px;
+
+    }
+
+    .openbtn:hover {
+        background-color: #444;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading{
+    font-size: 1.7rem;
+    }
+.heading-1{
+    font-size: 1.7rem;
+}.ter
+h3{
+    font-size: 1.6rem;
+}
+    }
